@@ -31,7 +31,7 @@ function SignedOut(){
     return( 
           
     <section id="SignedOut" hidden={hidden}>
-    
+        <h2>Please sign in to continue.</h2>
         <button id="signInBtn" onClick={clickHandler}>Sign in with Google</button>
         
     </section>
