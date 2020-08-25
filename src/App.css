@@ -1,8 +1,44 @@
 body{
-    background-color: #09017eb7;
+    background-color: lightgray;
 
 }
 *{
     margin: auto;
     
+}
+.title{
+    font-size: 31px;
+    width: 100%;
+    text-align: left;
+    background-color: rgb(47, 67, 177);
+    color: white;
+    position: fixed;
+    top:0
+}
+#SignedOut{
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+    background-color: white;
+    border-radius: 5%;
+    height: 200px;
+    width: 250px;
+    box-shadow: 0px 10px 5px grey
+    }
+form{
+        width: 306px;
+
+}
+.post{
+    width: 300px;
+}
+@media only screen and (min-width: 600px) {
+  .title {text-align: center;}
+  .post{
+    width: 400px;       
+} 
+form{
+    width: 406px;
+
+}
 }
